@@ -1,4 +1,4 @@
-
+//some comments
 package student1;
 
 import java.util.Scanner;
@@ -25,11 +25,11 @@ public class ReverseWord {
         
         for(int i =0;i< myLetters.length;i++){
             myLetters[i]= word.charAt(i);
-            System.out.println(myLetters[i]);
+            System.out.print(myLetters[i]);
         }
         //print in reverse
         for(int i =myLetters.length-1;i>=0;i--){
-             System.out.println(myLetters[i]);
+             System.out.print(myLetters[i]);
         }
         
         
